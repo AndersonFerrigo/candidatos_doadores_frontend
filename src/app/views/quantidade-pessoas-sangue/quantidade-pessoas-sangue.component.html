@@ -1,0 +1,32 @@
+<mat-card class="qtd_pessoas_doadoras mat-elevation-z7">
+   <mat-card-title class=" mtitle title">
+        Candidatos
+   </mat-card-title>
+   <mat-card-subtitle class=" sbtitle  subtitle">
+       Média de idade para cada tipo sanguineo
+   </mat-card-subtitle>
+   
+        <select class="selectQtdPessoas"
+                (change)="selectChangeHandler($event)">
+            <option disable selected >Selecione um tipo sanguineo</option>
+            <option value="APos">A+ </option>
+            <option value="ANeg">A- </option>
+            <option value="BPos">B+ </option>
+            <option value="BNeg">B- </option>
+            <option value="ABPos">AB+ </option>
+            <option value="ABNeg">AB- </option>
+            <option value="OPos">O+ </option>
+            <option value="ONeg">O- </option>
+      
+        </select>
+  
+        <p>
+            <span> 
+                A quantidade de possíveis doadores para cada tipo sanguíneo receptor selecionado acima é 
+            </span>
+            <b>
+               {{quantidadeCandidatos}}
+            </b>
+        </p>
+   
+</mat-card>

@@ -1,0 +1,50 @@
+<table class="table table-striped">
+    <thead class="thead">
+        <tr>
+            <th>Id</th>
+            <th>Nome</th>
+            <th>CPF</th>
+            <th>RG</th>
+            <th>Idade</th>
+            <th>Sexo</th>
+            <th>Mãe</th>
+            <th>Pai</th>
+            <th>Email</th>
+            <th>Cep</th>
+            <th>Endereço</th>
+            <th>Número</th>
+            <th>Bairro</th>
+            <th>Cidade</th>
+            <th>Estado</th>
+            <th>Residencial</th>
+            <th>Celular</th>
+            <th>IMC Calculado</th>
+            <th>Peso</th>
+            <th>Tipo Sanguineo</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let doador of doadores">
+            <td>{{ doador.id }}</td>
+            <td>{{ doador.nome }}</td>
+            <td>{{ doador.cpf }}</td>
+            <td>{{ doador.rg }}</td>
+            <td>{{ doador.idade }}</td>
+            <td>{{ doador.sexo }}</td>
+            <td>{{ doador.mae }}</td>
+            <td>{{ doador.pai }}</td>
+            <td>{{ doador.email }}</td>
+            <td>{{ doador.cep }}</td>
+            <td>{{ doador.endereco }}</td>
+            <td>{{ doador.numero }}</td>
+            <td>{{ doador.bairro }}</td>
+            <td>{{ doador.cidade }}</td>
+            <td>{{ doador.estado }}</td>
+            <td>{{ doador.telefone_fixo }}</td>
+            <td>{{ doador.celular }}</td>
+            <td>{{ doador.IMC }}</td>
+            <td>{{ doador.peso}}</td>
+            <td>{{ doador.tipo_sanguineo }}</td>
+        </tr>
+    </tbody>    
+</table>

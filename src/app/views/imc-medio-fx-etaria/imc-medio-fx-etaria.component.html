@@ -1,0 +1,23 @@
+<mat-card class="imc_medio mat-elevation-z7">
+   <mat-card-title class=" mtitle title">
+        Candidatos
+   </mat-card-title>
+   <mat-card-subtitle class=" sbtitle  subtitle">
+       IMC médio por faixa etária de candidatos
+   </mat-card-subtitle>
+   
+        <select class="selectFE"
+                (change)="selectChangeHandler($event)">
+            <option disable selected >Selecione a faixa etaria</option>
+            <option value="fx1">Candidatos de 10 a 20 anos</option>
+            <option value="fx2">Candidatos de 21 a 30 anos</option>
+            <option value="fx3">Candidatos de 31 a 40 anos</option>
+            <option value="fx4">Candidatos de 41 a 50 anos</option>
+            <option value="fx5">Candidatos de 51 a 60 anos</option>
+            <option value="fx6">Candidatos de 61 a 70 anos</option>
+            <option value="fx7">Candidatos de 71 a 80 anos</option>
+        </select>
+
+        <p><span> Média do IMC para faixa etaria esolhida é </span><b>{{imcMedio}}</b></p>
+   
+</mat-card>

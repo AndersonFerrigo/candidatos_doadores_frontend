@@ -1,0 +1,21 @@
+.table{
+  margin:2%
+}
+.thead{
+  background-color: #8727E0;
+}
+
+th {
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;  
+  background-clip: padding-box;
+}
+
+td{
+  text-align: center;
+  border: 1px solid;
+  border-color: #8727E0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;  
+ 
+}

@@ -1,0 +1,70 @@
+.qtd_pessoas_doadoras{
+    width: 44%;
+    height: 150px;
+    margin: 15px;
+    margin-left: 50%;
+    margin-top: -196px;
+    background-color: #dddddd;
+   
+}
+.selectQtdPessoas{
+    width:60%;
+    height:30px;
+    border-radius: 8px;
+    border: 2px solid;
+    border-color: #000000;
+    margin-top: 10px;
+    margin-left: 20%;
+}
+
+.mtitle , .sbtitle,  p{
+    text-align: center;
+}
+.sbtitle{
+    padding-top: 5px;    
+    margin-top: 12px;
+}
+
+p{ 
+    margin: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .qtd_pessoas_doadoras{
+        width: 88%;
+        height: 150px;
+        margin: 5%;
+        background-color: #dddddd;
+       
+    }
+    .selectQtdPessoas{
+        width:60%;
+        height:30px;
+        border-radius: 8px;
+        border: 2px solid;
+        border-color: #000000;
+        margin-top: 10px;
+        margin-left: 20%;
+    }
+            
+}
+
+@media screen and (max-width: 600px) {
+    .qtd_pessoas_doadoras{
+        width: 100%;
+        height: 150px;
+        margin: 5%;
+        background-color: #dddddd;
+       
+    }
+    .selectQtdPessoas{
+        width:60%;
+        height:30px;
+        border-radius: 8px;
+        border: 2px solid;
+        border-color: #000000;
+        margin-top: 10px;
+        margin-left: 20%;
+    }
+            
+}

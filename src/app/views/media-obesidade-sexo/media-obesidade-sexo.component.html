@@ -1,0 +1,25 @@
+<mat-card class="obesidade_media mat-elevation-z7">
+   <mat-card-title class=" mtitle title">
+        Candidatos
+   </mat-card-title>
+   <mat-card-subtitle class=" sbtitle  subtitle">
+       Percentual de pessoas obesas entre os sexos
+   </mat-card-subtitle>
+   
+        <select class="selectSexo"
+                (change)="selectChangeHandler($event)">
+            <option disable selected >Selecione um sexo</option>
+            <option value="homens">Homens</option>
+            <option value="mulheres">Mulheres</option>
+        </select>
+  
+        <p>
+            <span> 
+                Média de pessoas obesas entre o sexo selecionado é 
+            </span>
+            <b>
+               {{mediaObesidade}}
+            </b>
+        </p>
+   
+</mat-card>
